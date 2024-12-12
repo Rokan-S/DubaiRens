@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;  
+    background-color: burlywood;
+    color: #061224;
+}
+
+header{
+    background-color: black;
+    color:aliceblue;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration:double;
+    color:transparent;
+}
+
+.section {
+    padding: 20px;
+    background-color:coral;
+    margin: 20px 0;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color:#061224;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*CUESTIONARIO*/
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #061224;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: coral;
+}
+
+footer {
+    background-color: black;
+    color: coral;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
